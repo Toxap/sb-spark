@@ -1,0 +1,7 @@
+[debug] Packaging C:\Users\Anton\Desktop\data_mart\target\scala-2.11\data_mart_2.11-1.0.jar ...
+[debug] Input file mappings:
+[debug] 	data_mart$delayedInit$body.class
+[debug] 	  C:\Users\Anton\Desktop\data_mart\target\scala-2.11\classes\data_mart$delayedInit$body.class
+[debug] 	data_mart.class
+[debug] 	  C:\Users\Anton\Desktop\data_mart\target\scala-2.11\classes\data_mart.class
+[debug] Done packaging.
