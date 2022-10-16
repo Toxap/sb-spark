@@ -11,17 +11,17 @@ object filter extends App {
 
 
   val offset: String = spark.conf.get("spark.filter.offset")
-  val topic_Name: String = spark.conf.get("spark.filter.topic_Name")
+  val topic_Name: String = spark.conf.get("spark.filter.topic_name")
   val output_dir_prefix: String = spark.conf.get("spark.filter.output_dir_prefix")
 
   val kafkaDF = spark.read.format("kafka")
     .option("kafka.bootstrap.servers", "10.0.0.31:6667")
-    .option("subscribe", topic_Name)
+    .option("subscribe", topic_name)
     .option("startingOffsets",
       if (offset.contains("earliest"))
         offset
       else {
-        "{\"" + topic_Name + "\":{\"0\":" + offset + "}}"
+        "{\"" + topic_name + "\":{\"0\":" + offset + "}}"
       }
     )
     .load()
