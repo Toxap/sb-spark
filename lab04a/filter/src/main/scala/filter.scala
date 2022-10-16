@@ -11,7 +11,7 @@ object filter extends App {
 
 
   val offset: String = spark.conf.get("spark.filter.offset")
-  val topic_Name: String = spark.conf.get("spark.filter.topic_name")
+  val topic_name: String = spark.conf.get("spark.filter.topic_name")
   val output_dir_prefix: String = spark.conf.get("spark.filter.output_dir_prefix")
 
   val kafkaDF = spark.read.format("kafka")
