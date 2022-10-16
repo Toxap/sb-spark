@@ -1,0 +1,9 @@
+[debug] Packaging C:\Users\Anton\Desktop\filter\target\scala-2.11\filter_2.11-1.0.jar ...
+[debug] Input file mappings:
+[debug] 	filter$.class
+[debug] 	  C:\Users\Anton\Desktop\filter\target\scala-2.11\classes\filter$.class
+[debug] 	filter$delayedInit$body.class
+[debug] 	  C:\Users\Anton\Desktop\filter\target\scala-2.11\classes\filter$delayedInit$body.class
+[debug] 	filter.class
+[debug] 	  C:\Users\Anton\Desktop\filter\target\scala-2.11\classes\filter.class
+[debug] Done packaging.
