@@ -1,0 +1,9 @@
+[debug] Packaging C:\Users\Anton\Desktop\users_items\target\scala-2.11\users_items_2.11-1.0.jar ...
+[debug] Input file mappings:
+[debug] 	users_items$.class
+[debug] 	  C:\Users\Anton\Desktop\users_items\target\scala-2.11\classes\users_items$.class
+[debug] 	users_items$delayedInit$body.class
+[debug] 	  C:\Users\Anton\Desktop\users_items\target\scala-2.11\classes\users_items$delayedInit$body.class
+[debug] 	users_items.class
+[debug] 	  C:\Users\Anton\Desktop\users_items\target\scala-2.11\classes\users_items.class
+[debug] Done packaging.
