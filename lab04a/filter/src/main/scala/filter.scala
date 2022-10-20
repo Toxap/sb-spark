@@ -43,6 +43,8 @@ object filter extends App {
   val dateDF = personDF
     .withColumn("p_date", to_date((col("timestamp") / 1000).cast(TimestampType)))
     .withColumn("p_date", date_format(col("p_date"), "yyyyMMdd"))
+    .withColumn("date", to_date((col("timestamp") / 1000).cast(TimestampType)))
+    .withColumn("date", date_format(col("date"), "yyyyMMdd"))
 
   dateDF
     .filter(col("event_type") === "view")
